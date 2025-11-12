@@ -1,0 +1,70 @@
+Employee ID,First Name,Last Name,Date of Birth,Relationship,SSN,Medical Member ID,Dental Member ID,Vision Member ID
+acct nbr,subscriber first nm,subscriber last nm,attributes dob,relationship type,memberssn,medplanmemid,dids,vis mem id
+alternate eeid,name,second name,birdate,covered person relationship,ssn sin,medical id,carrier dentalplanmemberid,vision plan member id
+associate id,carrier firstname,carrier lastname,bir dt,relationship status,tax id ssn,medicalplanmemberid,dental plan member id,visionplanmemberid
+badge number,emp first name,lastname,birthdate,relationship code,soc sec num,member id,dental member ids,visplanmemid
+carrier employeeid,member first name,emp last name,birth date,relationsip,ssn formatted,medical plan id,dent mem id,vision plan id
+certificate number,preferred first name,member last nm,birth date personal profile,relationshiptype,ee soc sec,med member id,dental plan mbr id,vision plan memberid
+contactid,mem first name,mem last name,birth date elig,carrier relationship,covered ssn,medical plan member ids,den plan mbr id,vision ids
+contract number,fname,lname,birth date mmddyy,relation type,social security no,medical plan member id,dentplanmemid,vision insurance member id
+current emp id,legal name first name,legal name last name,birth date mmddyyyy,relationship ee,soc sec no,medical plan mbr id,den plan id,carrier visionplanmemberid
+ee code,covered first name,covered last name,birth date mm dd yyyy,rel,subscriber social security number,medical plan subscriber id,dental memberid,vision plan mbr id
+eeid,member first nm,member last,birthdate personal dta,coveredrelationship,individual ssn,medical member ids,dental insurance plan member id,vis plan id
+ee id,member first,legal last name,birthday,relationcode,ee tax id,medical ids,dentalplanmemberid,vision medical id
+eemployee individual number,legal first name,ee last,birth dt,covered relationship,social security,med id,dental plan id,vis plan mbr id
+ee number,first and middle,individual last name,bithdate,relation,social sec,medical member plan id,,vision member ids
+eid,ee first,personal info last name,carrier dob,relation to employee elig,employee ss number,memid,,vids
+emloyee id,individual first name,sub last name,claimant date of birth,relationships,subscriber ssn,medical member id formatted,,vis member id
+empid,sub first name,memberlastname,covered date of birth,user relationship,ssn number,med mem id,,
+emp id,memberfirstname,participant last name,covered member dob,role,soc sec,medicalmemberid,,
+employeecode,participant first name,user last name,covered person date of birth,relationshipname,ss,medical insurance plan id,,
+employee code,user first name,member last name,date birth,relationship description,employees ssn,medical insurance plan member id,,
+employee employee id,preferredfirst name,surname,date birthday,,member ss,medical plan participant id,,
+employee employer number,employee first name,last nageme,date o bifth,,member ssn,med plan id,,
+employee gl code,name first,employee last name,dateofbirth,,participant ssn,medical memder id,,
+employeeid,first name elig,name last,date of birthday,,primary ssn,medical insurance member id,,
+employeeident,firstname,last name elig,dob,,memeberssn,med plan member,,
+employee identifier,first,employeelastname,dob employee,,ssn unformatted,mids,,
+employee id number,employeefirstname,last name required,dob mmddyyyy,,attributes ssn,,,
+employee id position id,first name required,last name of member,dob mm dd yyyy,,socal security number,,,
+employee individual number,first name of member,covered person last name,ee birth date,,Social Security Number,,,
+employee member id,covered person first name,covered member last name,ee dob,,social namber,,,
+employeenumber,covered member first name,legal lastname,emp birth date,,sub ssn,,,
+employee number,legal firstname,last nm,employee birth date,,tax idssn,,,
+employee position id,first nm,ln,employee date of birth,,ssn of member,,,
+employee social security number,mbr first name,mbr last name,employee date of hire,,emp ssn,,,
+employee unique identifier,personal infofirst name,last,employee dob,,social number,,,
+employe identifier,firstn name,personal infolast name,indiv birth dt,,socialsec,,,
+employemployee id,ee first name,ee last name,mbr birth date,,eligible employee ssn,,,
+employerid,,,participant birth date,,claimant social security number,,,
+employer id,,,date of birth,,ee ssn,,,
+empno,,,,,employee ssn,,,
+external emloyee id,,,,,member ssn elig,,,
+externalemployeeid,,,,,original employee ssn,,,
+family id,,,,,cleaned ssn,,,
+family identifier,,,,,employee social security number,,,
+gp employee id,,,,,socialsecuritynumber,,,
+id,,,,,ee social,,,
+identifier,,,,,social securitry number,,,
+identifyer,,,,,ss number,,,
+id fields,,,,,mbr ssn,,,
+id number,,,,,covered person social security number,,,
+ids,,,,,ssn,,,
+insured id,,,,,,,,
+orig id,,,,,,,,
+participant id,,,,,,,,
+pers no,,,,,,,,
+personal info employee id,,,,,,,,
+personal infoemployee id,,,,,,,,
+person id,,,,,,,,
+position id,,,,,,,,
+privacy id,,,,,,,,
+sub id,,,,,,,,
+sub id nbr,,,,,,,,
+subscriberid,,,,,,,,
+subscriber id,,,,,,,,
+subscriber system id,,,,,,,,
+system member id,,,,,,,,
+uniqueemployeeid,,,,,,,,
+unique id,,,,,,,,
+user id,,,,,,,,
