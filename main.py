@@ -6,13 +6,53 @@ import os
 from datetime import datetime
 from rapidfuzz import fuzz, process
 
+# load headers and test files
+BASE_DIR = os.path.dirname(__file__)
+validation_headers_path = os.path.join(BASE_DIR, "headers.csv")
+messy_file_path = os.path.join(BASE_DIR, "messed_up_file.csv")
+clean_file_path = os.path.join(BASE_DIR, "corrected_file.csv")
+
+# ========= Expander with Sample Files ========= #
+
+with st.expander("🧪 Try Sample Files"):
+
+    col1, col2 = st.columns(2)
+
+    # Read the local CSVs
+    messy_file = pd.read_csv(messy_file_path)
+    clean_file = pd.read_csv(clean_file_path)
+
+    # Convert to in-memory CSV buffers
+    messy_buffer = io.StringIO()
+    messy_file.to_csv(messy_buffer, index = False)
+
+    clean_buffer = io.StringIO()
+    clean_file.to_csv(clean_buffer, index = False)
+
+    # Download buttons
+    with col1:
+        st.download_button(
+            label = "📥 Messed-Up File",
+            data = messy_buffer.getvalue(),
+            file_name = "messed_up_file.csv",
+            mime = "text/csv",
+            use_container_width = True
+        )
+
+    with col2:
+        st.download_button(
+            label = "📥 Corrected File",
+            data = clean_buffer.getvalue(),
+            file_name = "corrected_file.csv",
+            mime = "text/csv",
+            use_container_width = True
+        )
+
+# ========= Initialize App ========= #
+
 st.title("Validate Your File")
 
 uploaded_file = st.file_uploader("Choose CSV file", type = "csv")
-
-#load headers
-BASE_DIR = os.path.dirname(__file__)
-validation_headers_path = os.path.join(BASE_DIR, "headers.csv")
 
 # save original file name
 original_file_name = uploaded_file.name if uploaded_file else "modified_file.csv"
@@ -32,7 +72,6 @@ def clean_nan_values(df: pd.DataFrame, add_row_offset: int = 2) -> pd.DataFrame:
     cleaned.index = cleaned.index + add_row_offset
 
     return cleaned
-
 
 # clean visible None values from preview
 if uploaded_file is not None:
